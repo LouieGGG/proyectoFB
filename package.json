@@ -2,7 +2,7 @@
   "name": "proyecto",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto de fin de bootcamp",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +14,6 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.0"
-  }
+  },
+  "devDependencies": {}
 }
