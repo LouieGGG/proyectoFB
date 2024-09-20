@@ -8,6 +8,11 @@ const app = express();
 
 const {PORT} = process.env;
 
+//Login
+app.get("/login", function (req, res) {
+    res.send("Login");
+});
+
 
 //Comentario
 app.get("/", function (req, res) {
