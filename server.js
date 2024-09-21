@@ -6,11 +6,8 @@ import express from "express";
 
 const app = express();
 
-<<<<<<< HEAD
-const { PORT, A, B, CC } = process.env;
-=======
 const { PORT, A, B, C } = process.env;
->>>>>>> conflict
+
 
 //login
 app.get("/login", function (req, res) {
